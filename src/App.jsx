@@ -1,5 +1,4 @@
 import './App.css'
-import scenery from './assets/scenery.jpg'
 
 function App() {
   return (
@@ -8,7 +7,7 @@ function App() {
   
      <img
         className="scenery-img-styled"
-        src={scenery}
+        src="/scenery.jpeg" //the image files is inside the public folder, so we can use the path directly
         alt="Half Dome"
       />
       
